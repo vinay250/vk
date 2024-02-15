@@ -1,0 +1,312 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px; /* Adjust the padding as needed */
+}
+
+a:hover {
+    background-color: #555; /* Change the background color on hover */
+    color: #ebd6d6;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #ec0202e9;
+    padding: 10px;
+}
+
+#main-content {
+    padding: 10px;
+}
+
+footer {
+    background-color: #0d65cb;
+    color: #fff;
+    text-align: center;
+    padding: 0; /* Remove padding */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 350px; /* Adjust this value as needed */
+    height: auto; /* To maintain aspect ratio */
+    margin-right: -32px; /* Add some space between logo and text */
+}
+
+.logo-container h1 {
+    font-size: 100px; /* Increase the font size as needed */
+    color: rgb(49, 2, 2);
+    text-align: right;
+}
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px; /* Adjust margin between list items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Change link color */
+    padding: 5px 10px; /* Adjust padding */
+    border: 1px solid #c10505; /* Add border */
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+/* Add this CSS to adjust the layout */
+#main-content {
+    padding-bottom: 150px; /* Add more padding if necessary */
+}
+
+footer {
+    position: relative; /* Ensure the footer remains at the bottom */
+}
+
+#feedback-form {
+    margin-top: 10px; /* Adjust this margin to create space between the articles and the feedback form */
+}
+
+/* Add any additional styling as needed */
+footer p {
+    font-size: 30px; /* Adjust the font size as needed */
+}
+
+#feedback-form {
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark gray text color */
+    font-size: 35px; /* Font size */
+}
+#feedback-form h2 {
+    color: #081626; /* Blue heading color */
+    font-size: 45px; /* Larger font size for heading */
+}
+#feedback-form label {
+    font-size: 20px; /* Larger font size for labels */
+}
+#feedback-form input[type="text"],
+#feedback-form input[type="email"],
+#feedback-form textarea {
+    font-size: 25px; /* Font size for input fields */
+    padding: 8px; /* Add some padding for better spacing */
+    width: 100%; /* Make input fields 100% width */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    margin-bottom: 2px; /* Add margin at the bottom for better spacing between elements */
+}
+#feedback-form button {
+    font-size: 20px; /* Font size for the button */
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none;/* Remove border */
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+#feedback-form button:hover {
+    background-color: #172c42; /* Darker blue color on hover */
+}
+ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 1px; /* Add some right margin for spacing */
+}
+li a {
+    text-decoration: none; /* Remove underline from links */
+    font-size: 30px; /* Increase font size */
+    color: #333; /* Default text color */
+    padding: 5px 10px; /* Add padding to the links */
+    border: 3px solid rgb(165, 20, 20); /* Add red border */
+    border-radius: 30px; /* Add border radius for rounded corners */
+}
+li a:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+}
+.language-selection {
+    font-size: 25px; /* Set font size */
+    color: #333; /* Set text color */
+    text-align: center; /* Center align the content */
+}
+select {
+    font-size: 25px; /* Set font size for dropdown */
+    color: #555; /* Set text color for dropdown */
+    padding: 5px; /* Add padding */
+    border: 1px solid #160404; /* Add border */
+    border-radius: 30px; /* Add border radius */
+}
+option {
+    font-size: 30px; /* Set font size for options */
+    color: #555; /* Set text color for options */
+}
+header {
+    text-align: center; /* Center align the content */
+    margin-bottom: 20px; /* Add margin to create space between header and text */
+}
+h1 {
+    font-size: 60px; /* Set font size */
+    color: red; /* Set text color */
+}
+h2 {
+    font-size: 30px; /* Set font size */
+    color: rgb(225, 67, 9); /* Set text color */
+    margin-top: -5px; /* Add margin to create space between h1 and h2 */
+}
+p {
+    font-size: 30px; /* Set font size */
+    text-align: left; /* Left align the text */
+    color: black; /* Set text color */
+}
+p {
+    text-align: center; /* Center align the text */
+    font-size: 20px; /* Set font size */
+    color: rgb(10, 10, 11); /* Set text color */
+}
+#headline-container {
+    overflow: hidden;
+}
+
+.headline {
+    font-size: 35px;
+    color: rgb(3, 3, 13);
+    margin: 0;
+    white-space: nowrap;
+    animation: scrollHeadlines 15s linear infinite;
+}
+
+@keyframes scrollHeadlines {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+* ---contact---- */
+
+.contact-left{
+    flex-basis: 50%;
+
+}
+.contact-right{
+    flex-basis: 50%;
+    margin-left:1200px;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    color: #171476;
+    margin-right:100px;
+    font-size: 50px;
+
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 35px;
+    color: #8d0e92;
+    display: rgb(15, 3, 3);
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+
+}
+
+.btn.btn2{
+    display: inline-block;
+    background: #9f0938;
+}
+.contact-right form{
+    width: 70%;
+}
+form input, form textarea{
+    width: 50%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 50px;
+    cursor: pointer;
+
+}
+
+
+/* Media query for tablets (768px - 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+/* Media query for mobile devices (up to 767px) */
+@media screen and (max-width: 767px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+#startAssistant {
+    font-size: 50px;
+    padding: 60px 80px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 120px;
+    cursor: pointer;
+  }
+  
+  #startAssistant:hover {
+    background-color: #22476e;
+  }
+  
