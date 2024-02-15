@@ -309,25 +309,19 @@ form .btn2{
   #startAssistant:hover {
     background-color: #22476e;
   }
- /* Default font size for all devices */
+ /* Default font size for desktop */
 body {
     font-size: 16px;
 }
 
 /* Media query for mobile devices */
-@media only screen and (max-width: 600px) {
-    /* Adjust the font size and layout for mobile */
+@media only screen and (max-width: 720px) {
     body {
-        font-size: 14px;
+        font-size: 14px; /* Adjust the font size for mobile */
     }
-    /* Example: Adjust the width of certain elements for better mobile layout */
-    .container {
-        width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
-    }
-    /* Example: Hide certain elements on mobile or adjust their display */
-    .sidebar {
-        display: none;
+    img.logo {
+        margin: 0 auto; /* Center the logo horizontally */
+        max-width: 100%; /* Ensure the logo doesn't exceed the screen width */
+        height: auto; /* Maintain aspect ratio */
     }
 }
