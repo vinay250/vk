@@ -309,14 +309,25 @@ form .btn2{
   #startAssistant:hover {
     background-color: #22476e;
   }
-  /* Default font size for desktop */
+ /* Default font size for all devices */
 body {
     font-size: 16px;
 }
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 600px) {
+    /* Adjust the font size and layout for mobile */
     body {
-        font-size: 14px; /* Adjust the font size for mobile */
+        font-size: 14px;
+    }
+    /* Example: Adjust the width of certain elements for better mobile layout */
+    .container {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    /* Example: Hide certain elements on mobile or adjust their display */
+    .sidebar {
+        display: none;
     }
 }
